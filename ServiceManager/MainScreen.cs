@@ -64,5 +64,10 @@ namespace ServiceManager
                 serviceInfo.ServiceFilePath = folderBrowserTextBox.Text;
             }
         }
+
+        private void TestServerConnection_Click(object sender, EventArgs e)
+        {
+            serviceMethods.AddServiceToServer();
+        }
     }
 }

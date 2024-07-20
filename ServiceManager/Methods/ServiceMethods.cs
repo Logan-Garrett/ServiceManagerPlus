@@ -1,4 +1,5 @@
 ﻿using Microsoft.PowerShell;
+using ServiceManager.DatabaseConnections;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -81,7 +82,7 @@ namespace ServiceManager.Methods
         }
         public void AddServiceToServer()
         {
-
+            DesktopDatabaseConnection.CallProcedure();
         }
 
         public void DeleteServiceFromServer()

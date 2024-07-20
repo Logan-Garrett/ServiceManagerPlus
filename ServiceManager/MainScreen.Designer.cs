@@ -38,6 +38,7 @@ namespace ServiceManager
             this.Select_Folder_Location = new System.Windows.Forms.Button();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.folderBrowserTextBox = new System.Windows.Forms.TextBox();
+            this.TestServerConnection = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -45,7 +46,7 @@ namespace ServiceManager
             this.Add.Font = new System.Drawing.Font("Arial", 10F);
             this.Add.Location = new System.Drawing.Point(160, 222);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(217, 67);
+            this.Add.Size = new System.Drawing.Size(217, 35);
             this.Add.TabIndex = 0;
             this.Add.Text = "Add";
             this.Add.UseVisualStyleBackColor = true;
@@ -56,7 +57,7 @@ namespace ServiceManager
             this.Delete.Font = new System.Drawing.Font("Arial", 10F);
             this.Delete.Location = new System.Drawing.Point(393, 222);
             this.Delete.Name = "Delete";
-            this.Delete.Size = new System.Drawing.Size(217, 67);
+            this.Delete.Size = new System.Drawing.Size(217, 35);
             this.Delete.TabIndex = 1;
             this.Delete.Text = "Delete";
             this.Delete.UseVisualStyleBackColor = true;
@@ -69,9 +70,9 @@ namespace ServiceManager
             this.ServiceName.Location = new System.Drawing.Point(160, 159);
             this.ServiceName.Multiline = true;
             this.ServiceName.Name = "ServiceName";
-            this.ServiceName.Text = "Service Name Here..."; // Keeps Removing not sure why.
             this.ServiceName.Size = new System.Drawing.Size(450, 40);
             this.ServiceName.TabIndex = 2;
+            this.ServiceName.Text = "Service Name Here...";
             this.ServiceName.Click += new System.EventHandler(this.ServiceNameClear_Click);
             // 
             // ProgramName
@@ -87,9 +88,9 @@ namespace ServiceManager
             // Select_Folder_Location
             // 
             this.Select_Folder_Location.Font = new System.Drawing.Font("Arial", 10F);
-            this.Select_Folder_Location.Location = new System.Drawing.Point(60, 308);
+            this.Select_Folder_Location.Location = new System.Drawing.Point(160, 275);
             this.Select_Folder_Location.Name = "Select_Folder_Location";
-            this.Select_Folder_Location.Size = new System.Drawing.Size(217, 41);
+            this.Select_Folder_Location.Size = new System.Drawing.Size(160, 41);
             this.Select_Folder_Location.TabIndex = 4;
             this.Select_Folder_Location.Text = "Select Folder Location";
             this.Select_Folder_Location.UseVisualStyleBackColor = true;
@@ -102,11 +103,21 @@ namespace ServiceManager
             // folderBrowserTextBox
             // 
             this.folderBrowserTextBox.Font = new System.Drawing.Font("Arial", 12F);
-            this.folderBrowserTextBox.Location = new System.Drawing.Point(293, 308);
+            this.folderBrowserTextBox.Location = new System.Drawing.Point(326, 275);
             this.folderBrowserTextBox.Multiline = true;
             this.folderBrowserTextBox.Name = "folderBrowserTextBox";
-            this.folderBrowserTextBox.Size = new System.Drawing.Size(398, 41);
+            this.folderBrowserTextBox.Size = new System.Drawing.Size(284, 41);
             this.folderBrowserTextBox.TabIndex = 5;
+            // 
+            // TestServerConnection
+            // 
+            this.TestServerConnection.Location = new System.Drawing.Point(213, 391);
+            this.TestServerConnection.Name = "TestServerConnection";
+            this.TestServerConnection.Size = new System.Drawing.Size(75, 23);
+            this.TestServerConnection.TabIndex = 6;
+            this.TestServerConnection.Text = "TestServerConnection";
+            this.TestServerConnection.UseVisualStyleBackColor = true;
+            this.TestServerConnection.Click += new System.EventHandler(this.TestServerConnection_Click);
             // 
             // MainScreen
             // 
@@ -114,6 +125,7 @@ namespace ServiceManager
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TestServerConnection);
             this.Controls.Add(this.folderBrowserTextBox);
             this.Controls.Add(this.Select_Folder_Location);
             this.Controls.Add(this.ProgramName);
@@ -137,6 +149,7 @@ namespace ServiceManager
         private System.Windows.Forms.Button Select_Folder_Location;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
         private System.Windows.Forms.TextBox folderBrowserTextBox;
+        private System.Windows.Forms.Button TestServerConnection;
     }
 }
 

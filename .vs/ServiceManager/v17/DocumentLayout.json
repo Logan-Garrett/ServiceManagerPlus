@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\databaseconnections\\desktopdatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\databaseconnections\\desktopdatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|c:\\users\\logan-superpc\\source\\repos\\servicemanager\\servicemanager\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\interfaces\\iservicemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\interfaces\\iservicemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\mainscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\mainscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\methods\\servicemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\methods\\servicemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +27,8 @@
       "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\pod\\serviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|c:\\users\\logan-superpc\\source\\repos\\servicemanager\\servicemanager\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\servicemanager\\mainscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DDFC4A-E107-4602-AC4A-A241342043CB}|ServiceManager\\ServiceManager.csproj|solutionrelative:servicemanager\\mainscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,36 +38,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\app.manifest",
-              "RelativeDocumentMoniker": "ServiceManager\\app.manifest",
-              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\app.manifest",
-              "RelativeToolTip": "ServiceManager\\app.manifest",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2024-07-20T08:13:48.221Z",
+              "Title": "MainScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.Designer.cs",
+              "RelativeDocumentMoniker": "ServiceManager\\MainScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.Designer.cs",
+              "RelativeToolTip": "ServiceManager\\MainScreen.Designer.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T17:53:11.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServiceMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Interfaces\\IServiceMethods.cs",
+              "RelativeDocumentMoniker": "ServiceManager\\Interfaces\\IServiceMethods.cs",
+              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Interfaces\\IServiceMethods.cs",
+              "RelativeToolTip": "ServiceManager\\Interfaces\\IServiceMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T17:49:39.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DesktopDatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\DatabaseConnections\\DesktopDatabaseConnection.cs",
+              "RelativeDocumentMoniker": "ServiceManager\\DatabaseConnections\\DesktopDatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\DatabaseConnections\\DesktopDatabaseConnection.cs",
+              "RelativeToolTip": "ServiceManager\\DatabaseConnections\\DesktopDatabaseConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T17:31:01.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\App.config",
-              "RelativeDocumentMoniker": "ServiceManager\\App.config",
-              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\App.config",
-              "RelativeToolTip": "ServiceManager\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-20T08:10:27.316Z"
+              "DocumentIndex": 4,
+              "Title": "ServiceMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Methods\\ServiceMethods.cs",
+              "RelativeDocumentMoniker": "ServiceManager\\Methods\\ServiceMethods.cs",
+              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Methods\\ServiceMethods.cs",
+              "RelativeToolTip": "ServiceManager\\Methods\\ServiceMethods.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwFIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:55:47.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "MainScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.cs",
+              "RelativeDocumentMoniker": "ServiceManager\\MainScreen.cs",
+              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.cs",
+              "RelativeToolTip": "ServiceManager\\MainScreen.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:26:35.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\packages.config",
               "RelativeDocumentMoniker": "ServiceManager\\packages.config",
@@ -87,79 +120,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.Designer.cs",
-              "RelativeDocumentMoniker": "ServiceManager\\MainScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.Designer.cs",
-              "RelativeToolTip": "ServiceManager\\MainScreen.Designer.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAUwGcAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T01:49:44.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.cs",
-              "RelativeDocumentMoniker": "ServiceManager\\MainScreen.cs",
-              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.cs [Design]",
-              "RelativeToolTip": "ServiceManager\\MainScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T01:49:40.306Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Program.cs",
-              "RelativeDocumentMoniker": "ServiceManager\\Program.cs",
-              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Program.cs",
-              "RelativeToolTip": "ServiceManager\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T00:31:25.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainScreen.cs",
-              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.cs",
-              "RelativeDocumentMoniker": "ServiceManager\\MainScreen.cs",
-              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\MainScreen.cs",
-              "RelativeToolTip": "ServiceManager\\MainScreen.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAuwD8AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T00:26:35.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ServiceInfo.cs",
               "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\POD\\ServiceInfo.cs",
               "RelativeDocumentMoniker": "ServiceManager\\POD\\ServiceInfo.cs",
               "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\POD\\ServiceInfo.cs",
               "RelativeToolTip": "ServiceManager\\POD\\ServiceInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T00:38:16.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceMethods.cs",
-              "DocumentMoniker": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Methods\\ServiceMethods.cs",
-              "RelativeDocumentMoniker": "ServiceManager\\Methods\\ServiceMethods.cs",
-              "ToolTip": "C:\\Users\\Logan-SuperPc\\source\\repos\\ServiceManager\\ServiceManager\\Methods\\ServiceMethods.cs",
-              "RelativeToolTip": "ServiceManager\\Methods\\ServiceMethods.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAADwv1AAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T00:55:47.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T00:38:16.813Z"
             }
           ]
         }
