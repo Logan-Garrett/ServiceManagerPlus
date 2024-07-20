@@ -1,0 +1,14 @@
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Release\ServiceManager.exe.config
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Release\ServiceManager.exe
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Release\ServiceManager.pdb
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Release\System.Management.Automation.dll
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Release\Microsoft.Management.Infrastructure.dll
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Release\System.Management.Automation.xml
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceManager.csproj.AssemblyReference.cache
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceManager.MainScreen.resources
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceManager.Properties.Resources.resources
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceManager.csproj.GenerateResource.cache
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceManager.csproj.CoreCompileInputs.cache
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceM.A761735D.Up2Date
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceManager.exe
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Release\ServiceManager.pdb

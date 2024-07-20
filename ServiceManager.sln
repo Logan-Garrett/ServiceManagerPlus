@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManager", "ServiceManager\ServiceManager.csproj", "{C5DDFC4A-E107-4602-AC4A-A241342043CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{EF7522CA-CB2F-4577-AE1C-5DF7F1DB0E87}"
+	ProjectSection(SolutionItems) = preProject
+		ServiceManagerIcon.ico = ServiceManagerIcon.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5DDFC4A-E107-4602-AC4A-A241342043CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DDFC4A-E107-4602-AC4A-A241342043CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DDFC4A-E107-4602-AC4A-A241342043CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DDFC4A-E107-4602-AC4A-A241342043CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DBA26B8-6FD0-476A-897E-AE02F44E7D97}
+	EndGlobalSection
+EndGlobal
