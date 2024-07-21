@@ -8,7 +8,7 @@ GO
 -- =============================================
 -- Author:		<Logan Garrett>
 -- Create date: <7/20/24>
--- Description:	<Select All Services.>
+-- Description:	<Insert Service.>
 -- =============================================
 CREATE PROCEDURE [dbo].[InsertServiceInfo] 
 	@ServiceInfoTable [dbo].[ttServiceDetails] READONLY
