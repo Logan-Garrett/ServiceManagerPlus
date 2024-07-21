@@ -38,5 +38,25 @@ namespace ServiceManager.DataAccessLogic
                 conn.Close();
             }
         }
+
+        // Possibly Update to include an Auto Enumerated id that is unique
+        public void InsertServiceInfo()
+        {
+            // Assign info here?
+            string procedure = "[dbo].[InsertServiceInfo]";
+            SelectAllServices(procedure, dataSource);
+        }
+
+        private static void InsertServiceInfo(string procedure, string dataSource)
+        {
+            using (SqlConnection conn = DatabaseConnection.GetConnection(dataSource))
+            {
+            }
+        }
+
+        public void DeleteServiceInfo() 
+        { 
+        
+        }
     }
 }

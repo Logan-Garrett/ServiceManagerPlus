@@ -91,5 +91,11 @@ namespace ServiceManager.Methods
         {
 
         }
+
+        public void GetAllServices()
+        {
+            ServicesProcedures servicesProcedures = new ServicesProcedures();
+            servicesProcedures.SelectAllServices();
+        }
     }
 }

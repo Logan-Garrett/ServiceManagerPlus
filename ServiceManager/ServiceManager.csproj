@@ -162,11 +162,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccessLogic\DatabaseConnection.cs" />
+    <Compile Include="DataAccessLayer\DatabaseConnection.cs" />
     <Compile Include="BusinessLogicLayer\Interfaces\IServiceMethods.cs" />
-    <Compile Include="DataAccessLogic\IServicesProcedures.cs" />
-    <Compile Include="DataAccessLogic\LoggingProcedures.cs" />
-    <Compile Include="DataAccessLogic\ServicesProcedures.cs" />
+    <Compile Include="DataAccessLayer\IServicesProcedures.cs" />
+    <Compile Include="DataAccessLayer\LoggingProcedures.cs" />
+    <Compile Include="DataAccessLayer\ServicesProcedures.cs" />
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +188,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
     <None Include="packages.config" />
@@ -205,6 +206,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\gearsBackground.png" />
+    <None Include="Resources\vector-background-design-with-blue-gears.jpg" />
     <Content Include="ServiceManagerIcon.ico" />
   </ItemGroup>
   <ItemGroup />
