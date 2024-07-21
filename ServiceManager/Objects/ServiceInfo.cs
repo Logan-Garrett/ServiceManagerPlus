@@ -10,13 +10,12 @@ namespace ServiceManager
     {
         public string ServiceName {  get; set; }
 
-        public string ServiceVersion { get; set; } = string.Empty;
+        public int ServiceVersion { get; set; }
 
         public string ServiceDescription { get; set; }
 
         public string ServiceAdditionDate { get; set; }
 
         public string ServiceFilePath { get; set; }
-
     }
 }
