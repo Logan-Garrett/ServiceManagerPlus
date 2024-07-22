@@ -12,7 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ServiceManager
 {
-    public partial class MainScreen : Form
+    public partial class HomePage : Form
     {
         // Instantiations
         ServiceMethods serviceMethods = new ServiceMethods();
@@ -20,7 +20,7 @@ namespace ServiceManager
 
         //  Adjust the above to de-couple and make static if possible.
 
-        public MainScreen()
+        public HomePage()
         {
             InitializeComponent();
         }
@@ -67,7 +67,7 @@ namespace ServiceManager
 
         private void TestServerConnection_Click(object sender, EventArgs e)
         {
-            serviceMethods.AddServiceToServer();
+            // Blank
         }
     }
 }

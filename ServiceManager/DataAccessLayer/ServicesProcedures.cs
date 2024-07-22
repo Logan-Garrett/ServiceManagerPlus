@@ -1,10 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using ServiceManager.DatabaseConnections;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 
 namespace ServiceManager.DataAccessLogic
 {
@@ -21,36 +18,70 @@ namespace ServiceManager.DataAccessLogic
         // Change to be called from outside location?
         private static void SelectAllServices(string procedure, string dataSource)
         {
-            using (SqlConnection conn = DatabaseConnection.GetConnection(dataSource))
+            try
             {
-                conn.Open();
-                SqlCommand sqlCommand = new SqlCommand(procedure, conn);
-                sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
-                SqlDataReader reader = sqlCommand.ExecuteReader();
-                while (reader.Read())
+                using (SqlConnection conn = DatabaseConnection.GetConnection(dataSource))
                 {
-                    Console.WriteLine(String.Format(reader[0].ToString()));
-                    Console.WriteLine(String.Format(reader[1].ToString()));
-                    Console.WriteLine(String.Format(reader[2].ToString()));
-                    Console.WriteLine(String.Format(reader[3].ToString()));
-                    Console.WriteLine(String.Format(reader[4].ToString()));
+                    conn.Open();
+                    SqlCommand sqlCommand = new SqlCommand(procedure, conn);
+                    sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+                    SqlDataReader reader = sqlCommand.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        Console.WriteLine(String.Format(reader[0].ToString()));
+                        Console.WriteLine(String.Format(reader[1].ToString()));
+                        Console.WriteLine(String.Format(reader[2].ToString()));
+                        Console.WriteLine(String.Format(reader[3].ToString()));
+                        Console.WriteLine(String.Format(reader[4].ToString()));
+                    }
+                    conn.Close();
                 }
-                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                // Log to DB.
             }
         }
 
         // Possibly Update to include an Auto Enumerated id that is unique
-        public void InsertServiceInfo()
+        public void InsertServiceInfo(ServiceInfo serviceInfo)
         {
-            // Assign info here?
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("ServiceName", typeof(string));
+            dataTable.Columns.Add("ServiceVersion", typeof(int));
+            dataTable.Columns.Add("ServiceDescription", typeof(string));
+            dataTable.Columns.Add("ServiceAdditionDate", typeof(DateTime));
+            dataTable.Columns.Add("ServiceFilePath", typeof(string));
+
+            if (serviceInfo != null)
+            {
+                dataTable.Rows.Add(serviceInfo.ServiceName, serviceInfo.ServiceVersion, serviceInfo.ServiceDescription, serviceInfo.ServiceAdditionDate, serviceInfo.ServiceFilePath);
+            }
+
             string procedure = "[dbo].[InsertServiceInfo]";
-            SelectAllServices(procedure, dataSource);
+            InsertServiceInfo(procedure, dataSource, dataTable);
         }
 
-        private static void InsertServiceInfo(string procedure, string dataSource)
+        private static void InsertServiceInfo(string procedure, string dataSource, DataTable dataTable)
         {
-            using (SqlConnection conn = DatabaseConnection.GetConnection(dataSource))
+            try
             {
+                using (SqlConnection conn = DatabaseConnection.GetConnection(dataSource))
+                {
+                    conn.Open();
+                    SqlCommand sqlCommand = new SqlCommand(procedure, conn);
+                    sqlCommand.CommandType = CommandType.StoredProcedure;
+                    SqlParameter sqlParameter = sqlCommand.Parameters.AddWithValue("@ServiceInfoTable", dataTable);
+                    sqlParameter.SqlDbType = SqlDbType.Structured;
+                    sqlParameter.TypeName = "[dbo].[ttServiceDetails]";
+                    
+                    int updateStatus = sqlCommand.ExecuteNonQuery();
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log to DB.
             }
         }
 

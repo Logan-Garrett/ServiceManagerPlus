@@ -2,7 +2,7 @@
 
 namespace ServiceManager
 {
-    partial class MainScreen
+    partial class HomePage
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace ServiceManager
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
             this.Add = new System.Windows.Forms.Button();
             this.Delete = new System.Windows.Forms.Button();
             this.ServiceName = new System.Windows.Forms.TextBox();
@@ -119,7 +119,7 @@ namespace ServiceManager
             // 
             // TestServerConnection
             // 
-            this.TestServerConnection.Location = new System.Drawing.Point(296, 314);
+            this.TestServerConnection.Location = new System.Drawing.Point(311, 315);
             this.TestServerConnection.Name = "TestServerConnection";
             this.TestServerConnection.Size = new System.Drawing.Size(135, 23);
             this.TestServerConnection.TabIndex = 6;

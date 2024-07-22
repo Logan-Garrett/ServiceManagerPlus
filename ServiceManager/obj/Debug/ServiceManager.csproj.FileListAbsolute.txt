@@ -75,10 +75,12 @@ C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Debug\ru\M
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.csproj.AssemblyReference.cache
-C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.MainScreen.resources
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.Properties.Resources.resources
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.csproj.GenerateResource.cache
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.csproj.CoreCompileInputs.cache
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceM.A761735D.Up2Date
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.exe
 C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.pdb
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.HomePage.resources
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.ManageServices.resources
+C:\Users\Logan-SuperPc\source\repos\ServiceManager\ServiceManager\obj\Debug\ServiceManager.MyServices.resources

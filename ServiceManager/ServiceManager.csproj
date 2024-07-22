@@ -167,18 +167,45 @@
     <Compile Include="DataAccessLayer\IServicesProcedures.cs" />
     <Compile Include="DataAccessLayer\LoggingProcedures.cs" />
     <Compile Include="DataAccessLayer\ServicesProcedures.cs" />
-    <Compile Include="MainScreen.cs">
+    <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainScreen.Designer.cs">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
     <Compile Include="BusinessLogicLayer\HelperMethods\ServiceMethods.cs" />
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageServices.Designer.cs">
+      <DependentUpon>ManageServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyServices.Designer.cs">
+      <DependentUpon>MyServices.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Objects\ServiceInfo.cs" />
-    <EmbeddedResource Include="MainScreen.resx">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageServices.resx">
+      <DependentUpon>ManageServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyServices.resx">
+      <DependentUpon>MyServices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

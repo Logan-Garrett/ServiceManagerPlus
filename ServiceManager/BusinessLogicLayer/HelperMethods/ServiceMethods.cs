@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
+using System.ServiceProcess;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
@@ -21,14 +22,17 @@ namespace ServiceManager.Methods
             {
                 try
                 {
-                    PowerShell powerShell = PowerShell.Create();
-                    powerShell.AddCommand("Set-Location")
-                        .AddParameter("Path", servicePath)
-                        .AddStatement()
-                        .AddCommand("New-Service")
-                        .AddParameter("Name", serviceName)
-                        .AddParameter("BinaryPathName", serviceName + ".exe")
-                        .Invoke();
+                    // Add Service to System
+                    NewServiceViaPowerShell(serviceName, servicePath);
+
+                    // Add Service to Services Db.
+                    ServiceInfo serviceInfo = new ServiceInfo();
+                    serviceInfo.ServiceName = serviceName;
+                    serviceInfo.ServiceVersion = 1; // Will need to be grabbed from something else??
+                    serviceInfo.ServiceDescription = "BLANK.";
+                    serviceInfo.ServiceAdditionDate = DateTime.Now;
+                    serviceInfo.ServiceFilePath = servicePath;
+                    AddServiceToServer(serviceInfo);
                     MessageBox.Show($"Service Added. Go to manage tab to start or stop service.", "Service Added", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 catch (Exception ex)
@@ -81,10 +85,12 @@ namespace ServiceManager.Methods
         { 
         
         }
-        public void AddServiceToServer()
+        public void AddServiceToServer(ServiceInfo serviceInfo)
         {
+            // Init
             ServicesProcedures servicesProcedures = new ServicesProcedures();
-            servicesProcedures.SelectAllServices();
+            // Call
+            servicesProcedures.InsertServiceInfo(serviceInfo);
         }
 
         public void DeleteServiceFromServer()
@@ -94,8 +100,22 @@ namespace ServiceManager.Methods
 
         public void GetAllServices()
         {
+            // Init
             ServicesProcedures servicesProcedures = new ServicesProcedures();
+            // Call
             servicesProcedures.SelectAllServices();
+        }
+
+        public void NewServiceViaPowerShell(string serviceName, string servicePath)
+        {
+            PowerShell powerShell = PowerShell.Create();
+            powerShell.AddCommand("Set-Location")
+                .AddParameter("Path", servicePath)
+                .AddStatement()
+                .AddCommand("New-Service")
+                .AddParameter("Name", serviceName)
+                .AddParameter("BinaryPathName", serviceName + ".exe")
+                .Invoke();
         }
     }
 }

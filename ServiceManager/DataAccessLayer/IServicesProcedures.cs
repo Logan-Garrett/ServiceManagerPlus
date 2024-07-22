@@ -9,5 +9,7 @@ namespace ServiceManager.DataAccessLogic
     public interface IServicesProcedures
     {
         void SelectAllServices();
+
+        void InsertServiceInfo(ServiceInfo serviceInfo);
     }
 }

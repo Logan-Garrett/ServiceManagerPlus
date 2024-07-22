@@ -14,7 +14,7 @@ namespace ServiceManager
 
         public string ServiceDescription { get; set; }
 
-        public string ServiceAdditionDate { get; set; }
+        public DateTime ServiceAdditionDate { get; set; }
 
         public string ServiceFilePath { get; set; }
     }
