@@ -1,0 +1,2 @@
+CREATE SCHEMA logs;
+GO 
