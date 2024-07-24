@@ -26,13 +26,13 @@ namespace ServiceManager.Methods
                     NewServiceViaPowerShell(serviceName, servicePath);
 
                     // Add Service to Services Db.
-                    ServiceInfo serviceInfo = new ServiceInfo();
-                    serviceInfo.ServiceName = serviceName;
-                    serviceInfo.ServiceVersion = 1; // Will need to be grabbed from something else??
-                    serviceInfo.ServiceDescription = "BLANK.";
-                    serviceInfo.ServiceAdditionDate = DateTime.Now;
-                    serviceInfo.ServiceFilePath = servicePath;
-                    AddServiceToServer(serviceInfo);
+                    Serviceinformation serviceinformation = new Serviceinformation();
+                    serviceinformation.ServiceName = serviceName;
+                    serviceinformation.ServiceVersion = 1; // Will need to be grabbed from something else??
+                    serviceinformation.ServiceDescription = "BLANK.";
+                    serviceinformation.ServiceAdditionDate = DateTime.Now;
+                    serviceinformation.ServiceFilePath = servicePath;
+                    AddServiceToServer(serviceinformation);
                     MessageBox.Show($"Service Added. Go to manage tab to start or stop service.", "Service Added", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 catch (Exception ex)
@@ -85,12 +85,12 @@ namespace ServiceManager.Methods
         { 
         
         }
-        public void AddServiceToServer(ServiceInfo serviceInfo)
+        public void AddServiceToServer(Serviceinformation serviceinformation)
         {
             // Init
             ServicesProcedures servicesProcedures = new ServicesProcedures();
             // Call
-            servicesProcedures.InsertServiceInfo(serviceInfo);
+            servicesProcedures.InsertServiceinformation(serviceinformation);
         }
 
         public void DeleteServiceFromServer()

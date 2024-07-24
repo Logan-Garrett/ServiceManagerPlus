@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServiceManager
 {
-    public class ServiceInfo
+    public class Serviceinformation
     {
         public string ServiceName {  get; set; }
 

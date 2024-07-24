@@ -10,6 +10,6 @@ namespace ServiceManager.DataAccessLogic
     {
         void SelectAllServices();
 
-        void InsertServiceInfo(ServiceInfo serviceInfo);
+        void InsertServiceinformation(Serviceinformation serviceinformation);
     }
 }

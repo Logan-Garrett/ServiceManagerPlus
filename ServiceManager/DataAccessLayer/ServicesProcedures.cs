@@ -44,7 +44,7 @@ namespace ServiceManager.DataAccessLogic
         }
 
         // Possibly Update to include an Auto Enumerated id that is unique
-        public void InsertServiceInfo(ServiceInfo serviceInfo)
+        public void InsertServiceinformation(Serviceinformation serviceinformation)
         {
             DataTable dataTable = new DataTable();
             dataTable.Columns.Add("ServiceName", typeof(string));
@@ -53,16 +53,16 @@ namespace ServiceManager.DataAccessLogic
             dataTable.Columns.Add("ServiceAdditionDate", typeof(DateTime));
             dataTable.Columns.Add("ServiceFilePath", typeof(string));
 
-            if (serviceInfo != null)
+            if (serviceinformation != null)
             {
-                dataTable.Rows.Add(serviceInfo.ServiceName, serviceInfo.ServiceVersion, serviceInfo.ServiceDescription, serviceInfo.ServiceAdditionDate, serviceInfo.ServiceFilePath);
+                dataTable.Rows.Add(serviceinformation.ServiceName, serviceinformation.ServiceVersion, serviceinformation.ServiceDescription, serviceinformation.ServiceAdditionDate, serviceinformation.ServiceFilePath);
             }
 
-            string procedure = "[dbo].[InsertServiceInfo]";
-            InsertServiceInfo(procedure, dataSource, dataTable);
+            string procedure = "[dbo].[InsertServiceinformation]";
+            InsertServiceinformation(procedure, dataSource, dataTable);
         }
 
-        private static void InsertServiceInfo(string procedure, string dataSource, DataTable dataTable)
+        private static void InsertServiceinformation(string procedure, string dataSource, DataTable dataTable)
         {
             try
             {
@@ -71,7 +71,7 @@ namespace ServiceManager.DataAccessLogic
                     conn.Open();
                     SqlCommand sqlCommand = new SqlCommand(procedure, conn);
                     sqlCommand.CommandType = CommandType.StoredProcedure;
-                    SqlParameter sqlParameter = sqlCommand.Parameters.AddWithValue("@ServiceInfoTable", dataTable);
+                    SqlParameter sqlParameter = sqlCommand.Parameters.AddWithValue("@ServiceinformationTable", dataTable);
                     sqlParameter.SqlDbType = SqlDbType.Structured;
                     sqlParameter.TypeName = "[dbo].[ttServiceDetails]";
                     
@@ -85,7 +85,7 @@ namespace ServiceManager.DataAccessLogic
             }
         }
 
-        public void DeleteServiceInfo() 
+        public void DeleteServiceinformation() 
         { 
         
         }

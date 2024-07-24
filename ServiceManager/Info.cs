@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ServiceManager
 {
-    public partial class Info : Form
+    public partial class information : Form
     {
-        public Info()
+        public information()
         {
             InitializeComponent();
+        }
+
+        private void information_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

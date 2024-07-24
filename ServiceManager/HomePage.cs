@@ -16,7 +16,7 @@ namespace ServiceManager
     {
         // Instantiations
         ServiceMethods serviceMethods = new ServiceMethods();
-        ServiceInfo serviceInfo = new ServiceInfo();
+        Serviceinformation serviceinformation = new Serviceinformation();
 
         //  Adjust the above to de-couple and make static if possible.
 
@@ -39,7 +39,7 @@ namespace ServiceManager
 
         private void InputBox(object sender, EventArgs e)
         {
-            serviceInfo.ServiceName = ServiceName.Text;
+            serviceinformation.ServiceName = ServiceName.Text;
         }
 
         private void ServiceNameClear_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace ServiceManager
             if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
             {
                 folderBrowserTextBox.Text = folderBrowserDialog.SelectedPath;
-                serviceInfo.ServiceFilePath = folderBrowserTextBox.Text;
+                serviceinformation.ServiceFilePath = folderBrowserTextBox.Text;
             }
         }
 
